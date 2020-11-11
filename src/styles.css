@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+/* @import "~bootstrap/dist/css/bootstrap.css"; */
+@import "./assets/css/bootstrap.min.css";
+@import "./assets/css/toastr.css";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap");
+
+body {
+  background-attachment: fixed;
+  background-image: url(./assets/images/booksbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: overlay;
+}
+.logo {
+  height: 40px;
+}
+
+.jumbotron {
+  background-color: #204399 !important;
+  margin-bottom: 0 !important;
+  color: #fff !important;
+}
+
+.big-header {
+  color: #fff;
+  font-family: "Playfair Display", serif;
+  margin: 50px 0;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.marketing-bg {
+  min-height: 300px;
+  background-attachment: fixed;
+  background-image: url(./assets/images/booksbg.jpg);
+  background-position: center;
+}
+
+a {
+  text-decoration: none;
+}
